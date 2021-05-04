@@ -6,16 +6,18 @@ footer{
     padding-top: 10px;
     text-align: center;
     height: 50px;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 h2{
     color: white;
     padding: 0.2em;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 h3{
-background-color: rgb(113, 218, 113);
-
+    background-color: rgb(113, 218, 113);
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 .flex-container {
@@ -31,4 +33,8 @@ background-color: rgb(113, 218, 113);
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+  }
+
+  nav{
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
   }

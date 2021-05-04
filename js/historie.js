@@ -14,7 +14,7 @@ const heroes = [
         "name":"Simón Iturri Patiño",
         "birth":"1.6.1860",
         "death":"20.4.1947",
-        "biography":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id eleifend mi. Suspendisse potenti. Donec vehicula turpis justo, accumsan vestibulum mauris pharetra id. Aliquam tellus neque, aliquam vitae posuere non, volutpat id metus. Sed rhoncus lorem vel dui faucibus sodales. Maecenas dictum augue sit amet nisi suscipit, ac vulputate sapien dignissim. Fusce malesuada, urna ut facilisis placerat, dui odio maximus.",
+        "biography":"Bolivijský průmyslník, který v době své smrti patřil k nejbohatším lidem na světě. S majetkem získaným z vlastnictví většiny cínového průmyslu v Bolívii byl Patiño přezdíván „Andský Rockefeller“. Během druhé světové války byl Patiño považován za jednoho z pěti nejbohatších mužů na světě.",
         "portraits":[
            "patino.jpg",
            "patino2.jpg"
@@ -25,7 +25,7 @@ const heroes = [
         "name":"Francisco Pizarro",
         "birth":"16.3.1478",
         "death":"26.3.1541",
-        "biography":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id eleifend mi. Suspendisse potenti. Donec vehicula turpis justo, accumsan vestibulum mauris pharetra id. Aliquam tellus neque, aliquam vitae posuere non, volutpat id metus. Sed rhoncus lorem vel dui faucibus sodales. Maecenas dictum augue sit amet nisi suscipit, ac vulputate sapien dignissim. Fusce malesuada, urna ut facilisis placerat, dui odio maximus.",
+        "biography":"Španělský conquistador, dobyvatel říše Inků a zakladatel dnešního hlavního města Peru Limy. Narodil se v Trujillu ve Španělsku ve velmi chudé rodině, ale datum jeho narození není přesně známo. Byl nelegitimním synem Gonzala Pizarra Rodrígueze de Aguilar staršího (1446–1522), který se jako plukovník pěchoty pod velením dona Gonzales Fernándeze de Córdoba vyznamenal v italských válkách a v Navaře. Franciscova matka Francisca González Mateos měla jen malý majetek, později se vdala a měla syna Francisca Martína de Alcántara. Přes svoji matku byl Francisco vzdálený příbuzný dobyvatele Mexika Hernána Cortése.",
         "portraits":[
            "pizarro.png",
            "pizarro2.jpg"
@@ -36,7 +36,7 @@ const heroes = [
         "name":"Roberto Suárez Gómez",
         "birth":"28.3.1592",
         "death":"15.11.1670",
-        "biography":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id eleifend mi. Suspendisse potenti. Donec vehicula turpis justo, accumsan vestibulum mauris pharetra id. Aliquam tellus neque, aliquam vitae posuere non, volutpat id metus. Sed rhoncus lorem vel dui faucibus sodales. Maecenas dictum augue sit amet nisi suscipit, ac vulputate sapien dignissim. Fusce malesuada, urna ut facilisis placerat, dui odio maximus.",
+        "biography":"Známý jako král kokainu, byl bolivijský drogový magnát a obchodník s lidmi, který hrál hlavní roli v rozšiřování obchodu s kokainem v Bolívii. V jeho nejlepších letech Suárez vydělal 400 milionů dolarů ročně, byl jedním z hlavních dodavatelů Medellínského kartelu a vůdcem největší bolivijské drogové říše a byl považován za největšího producenta kokainu na světě.",
         "portraits":[
            "gomez.jpg",
            "gomez2.jpg",
@@ -47,7 +47,7 @@ const heroes = [
          "name":"Juana Azurduy de Padilla",
          "birth":"přibližně 1370",
          "death":"6.7.1415",
-         "biography":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id eleifend mi. Suspendisse potenti. Donec vehicula turpis justo, accumsan vestibulum mauris pharetra id. Aliquam tellus neque, aliquam vitae posuere non, volutpat id metus. Sed rhoncus lorem vel dui faucibus sodales. Maecenas dictum augue sit amet nisi suscipit, ac vulputate sapien dignissim. Fusce malesuada, urna ut facilisis placerat, dui odio maximus.",
+         "biography":"Partyzánská vojenská vůdkyně z Chuquisaca, místokrálovství řeky Río de la Plata. Bojovala za bolivijskou nezávislost po boku svého manžela Manuela Ascencia Padillu, který získal hodnost podplukovníka. Byla známá svou silnou podporou a vojenským vedením domorodých obyvatel Horního Peru.",
          "portraits":[
             "juana.jpg",
             "juana2.jpg"
@@ -58,7 +58,7 @@ const heroes = [
          "name":"Jaime Escalante",
          "birth":"8.9.1841",
          "death":"1.5.1904",
-         "biography":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id eleifend mi. Suspendisse potenti. Donec vehicula turpis justo, accumsan vestibulum mauris pharetra id. Aliquam tellus neque, aliquam vitae posuere non, volutpat id metus. Sed rhoncus lorem vel dui faucibus sodales. Maecenas dictum augue sit amet nisi suscipit, ac vulputate sapien dignissim. Fusce malesuada, urna ut facilisis placerat, dui odio maximus.",
+         "biography":"Jaime Alfonso Escalante Gutiérrez byl bolivijsko-americký pedagog známý tím, že v letech 1974 až 1991 učil studenty na matematické škole na Garfield High School ve východním Los Angeles. Escalante byl hlavní postavou filmu Stand and Deliver z roku 1988, ve kterém ho ztvárnil Edward James Olmos. V roce 1993 byl podle něj pojmenován asteroid 5095 Escalante.",
          "portraits":[
             "jaime.jpg",
             "jaime2.jpg",
@@ -69,7 +69,7 @@ const heroes = [
         "name":"Lidia Gueiler Tejada",
         "birth":"20.2.1878",
         "death":"28.1.1930",
-        "biography":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id eleifend mi. Suspendisse potenti. Donec vehicula turpis justo, accumsan vestibulum mauris pharetra id. Aliquam tellus neque, aliquam vitae posuere non, volutpat id metus. Sed rhoncus lorem vel dui faucibus sodales. Maecenas dictum augue sit amet nisi suscipit, ac vulputate sapien dignissim. Fusce malesuada, urna ut facilisis placerat, dui odio maximus.",
+        "biography":"Lidia Gueiler Tejada byla bolivijská politička, která prozatímně působila jako 56. prezidentka Bolívie v letech 1979 až 1980. Byla první bolívijskou hlavou státu a druhou v historii Ameriky (první byla Isabel Perón v Argentině) v letech 1974 až 1976). Byla sestřenice americké herečky Raquel Welch.",
         "portraits":[
            "lidia.jpg",
            "lidia2.png"
