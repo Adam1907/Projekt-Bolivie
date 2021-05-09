@@ -78,6 +78,46 @@ const heroes = [
      },
  ];
 
+ const events = [
+   {
+      "year":"200 př.n.l.",
+      "event":"Příchod Tiwanaku",
+      "detail":"Historie Bolívie je prastará, s izolovanými domorodými kmeny pěstující plodiny a domestikující lamy v Cochabamba a Chuquisaca již před 5 000 lety. Asi před 2000 lety dorazili aymarští lidé do západní Bolívie a založili říši Tiwanaku. Postavili obrovské město, ve kterém mohly být umístěny stovky tisíc lidí, než nakonec upadly kvůli období dlouhotrvajícího sucha kolem roku 1000 našeho letopočtu.",
+      "url":"https://cs.wikipedia.org/wiki/Tiwanaku"
+   },
+   {
+       "year":"1532",
+       "event":"Španělská kolonizace",
+       "detail":"V roce 1532 se první španělské lodě plavily podél pobřeží Peru se záměrem kolonizovat celý kontinent. Po sérii krvavých bitev převzali kontrolu nad inckou pevností Cuzco a nakonec se rozvětvili do Bolívie. Jak to často v koloniálních výbojích bývá, Španělé brutálně potlačovali domorodé obyvatele, vraždili a nutili ostatní, aby pracovali jako otroci. Je však pozoruhodné, že původním obyvatelům Bolívie se dařilo mnohem lépe než většině ostatních, a proto má dnes země nejvyšší podíl domorodců v Jižní Americe.",
+       "url":"https://cs.wikipedia.org/wiki/Kolonizace_Ji%C5%BEn%C3%AD_Ameriky"
+   },
+   {
+      "year":"1545",
+      "event":"Založení Cerro Rico",
+      "detail":"Netrvalo dlouho a dobyvatelé objevili stříbrnou horu Cerro Rico nedaleko Potosi. Když si uvědomili svůj potenciál, rychle shromáždili legii otroků, kteří těžili rudu v nepříjemných podmínkách. Během koloniálních časů Španělé vytáhli z hory asi dvě miliardy uncí rudy, což stačilo na to, aby v podstatě financovala celou jejich koloniální misi. Odhaduje se, že pod horou zahynulo asi šest milionů otroků.",
+      "url":""
+   },
+   {
+       "year":"1825",
+       "event":"Nezávislost",
+       "detail":"Bolívie jako první usilovala o nezávislost v roce 1809, protože politické a ekonomické problémy v koloniálním městě Sucre přinesly do regionu občanské nepokoje. V okamžiku známém jako <i>El primer grito de la libertad</i> (první výkřik svobody) se revolucionáři mobilizovali po celém městě a začali bojovat za nezávislost. Hnutí se rozšířilo po celém kontinentu a v průběhu let začalo španělské území upadat. Bolívie byla poslední zemí v Jižní Americe, která dosáhla nezávislosti, asi o 16 let později, v roce 1825.",
+       "url":"https://cs.wikipedia.org/wiki/Bol%C3%ADvie#Nez%C3%A1vislost",      
+   },
+   {
+       "year":"1932-1935",
+       "event":"Válka o Chaco",
+       "detail":"Válka Chaco byla další katastrofou pro Bolívii, tentokrát proti jejich východnímu sousedovi Paraguay. V roce 1932 se rozšířily spekulace, že velká část vyprahlé a převážně obývatelné půdy známé jako severní Chaco byla bohatá na ropu. Před potvrzením existence černého zlata as podporou dvou konkurenčních ropných společností zahájila Bolívie a Paraguay nejkrvavější jihoamerickou válku 20. století. Asi 100 000 vojáků zahynulo v horké řídce osídlené oblasti, kterou někteří historici nazvali <i>La Guerra de la Sed</i> (Žíznivá válka). Bolívie ztratila obrovskou část země a paradoxně se ukázalo, že tam stejně skoro žádný olej nebyl.",
+       "url":"https://cs.wikipedia.org/wiki/V%C3%A1lka_o_Gran_Chaco" 
+   },
+   {
+       "year":"1952",
+       "event":"Bolivijská národní revoluce",
+       "detail":"V roce 1952 se k moci dostala strana s názvem Revoluční národní hnutí a podnítila tzv. Bolívijskou národní revoluci. Tato pozoruhodná změna v bolivijské politice způsobila, že moc byla vzata bílé vládnoucí třídě a byla udělena nová práva marginalizovaným domorodým komunitám. Mezi jejich levicové politiky patřila agrární reforma, znárodnění těžebního sektoru, volební právo dospělých a zaměření na zdraví a vzdělávání na venkově. Strana ztratila moc vojenským pučem v roce 1964, ale pokračovala v kampani několik desetiletí, i když s výrazně pravicovějším přístupem.",
+       "url":""
+   },
+];
+
+
 $(function(){
 
    $("h2").on("click", function(){
@@ -85,8 +125,28 @@ $(function(){
       });   
             
 
+      events.forEach((event)=>{
+         $("#udalosti tbody").append(`<tr>
+             <td class="event-year">${event.year}</td>
+             <td>
+               <p class="event-name"><a href="${event.url}" target="_new">${event.event}</a></p>
+               <p class="event-detail">${event.detail}</p>
+             </td>            
+         </tr>`);
+     });
+ 
+     $(".event-detail").hide();
+ 
+     $(".event-name i, .event-name a").on("mouseover", function(){
+         $("#udalosti tr").removeClass("bg-success text-white");
+         $(this).parents("tr").addClass("bg-success text-white");
+         $(".event-detail").hide();
+         $(this).parent().next().show(500);
+     });
+
+
       heroes.forEach(hero=>{
-         $("#postavy .list-group").append(`<li class="list-group-item list-group-item-action list-group-item-primary">${hero.name}</li>`);
+         $("#postavy .list-group").append(`<li class="list-group-item list-group-item-action list-group-item-success">${hero.name}</li>`);
        
       })
     
