@@ -1,0 +1,16 @@
+{
+  "name": "bolivie",
+  "version": "1.0.0",
+  "description": "Zaverecny projekt 2. rocniku na tema Bolivie",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Adam Hajdik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0"
+  }
+}
