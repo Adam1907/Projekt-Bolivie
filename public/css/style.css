@@ -62,3 +62,12 @@ h3{
     background-color: transparent;
     text-decoration: underline;
   }
+
+  .fa-square-full{
+    color: red;
+
+  }
+
+  .fa-circle{
+    color: lime;
+  }
