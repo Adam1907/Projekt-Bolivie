@@ -71,3 +71,17 @@ h3{
   .fa-circle{
     color: lime;
   }
+
+  #clock{
+    color: white;
+
+  }
+
+  .time{
+    color: white;
+    margin-right: 10px;
+  }
+
+  .fa-clock{
+    color: white;
+  }
