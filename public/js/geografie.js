@@ -125,7 +125,7 @@ const cities = [
         "city":"Cochabamba",
         "pic":"cochabamba_c.jpg",
         "text":"Cochabamba je hlavním městem stejnojmenného departementu v Bolívii. Rozprostírá se v údolí Cochabamba v Andách, a s počtem 608 276 obyvatel je třetím největším bolivijským městem. Ve městě se nachází tzv. jihoamerický parlament, výkonný orgán organizace UNASUR. "
-     },
+     }
 
 ]
 

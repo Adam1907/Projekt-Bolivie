@@ -1,0 +1,64 @@
+[
+    {
+        "id":"cochabamba",
+        "name":"Cochabamba",
+        "pic":"cochabamba_s.gif",
+        "text":"Cochabamba je jedním z devíti departementů Bolívie. Je známo, že je „sýpkou“ země kvůli své rozmanitosti zemědělských produktů z její zeměpisné polohy. Má rozlohu 55 631 km². Jeho populace v roce 2012 sčítání lidu bylo 1758143. Jeho hlavním městem je město Cochabamba, známé jako „město věčného jara“ a „zahradní město“ kvůli jarním teplotám po celý rok."
+     },
+     
+     {
+         "id":"pando",
+         "name":"Pando",
+         "pic":"pando_s.png",
+         "text":"Pando je departement na severu Bolívie o rozloze 63 827 km² v amazonském deštném pralese sousedící s hranicí s Brazílií a Perú. Hlavním městem je Cobija."
+      },
+ 
+      {
+         "id":"beni",
+         "name":"Beni",
+         "pic":"beni_s.png",
+         "text":"Beni, někdy El Beni, je severovýchodní departement Bolívie, v nížinné oblasti země. Jedná se o druhý největší útvar v zemi s rozlohou 213 564 km² a byl vytvořen nejvyšším dekretem 18. listopadu 1842 za vlády generála Josého Balliviána. Hlavním městem je Trinidad."
+      },
+ 
+      {
+         "id":"oruro",
+         "name":"Oruro",
+         "pic":"oruro_s.png",
+         "text":"Oruro je oddělení v Bolívii o rozloze 53 588 km². Hlavním městem je Oruro. Podle sčítání lidu z roku 2012 mělo oddělení Oruro 494 178 obyvatel."
+      },
+ 
+      {
+         "id":"la_paz",
+         "name":"La Paz",
+         "pic":"la_paz_s.png",
+         "text":"La Paz je departement v západní Bolívii na hranici s Peru. Rozloha departementu je 133 985 km², v roce 2012 v něm žilo 2 706 359 obyvatel. Hlavním městem je La Paz. V departementu se nachází bolivijská část jezera Titicaca, pohoří Cordillera Real s nadmořskou výškou přes 6 400 m n. m. Severovýchodně od pohoří se nachází Yunga, strmé východní svahy Andského pohoří, které tvoří přechod k Amazonské nížině."
+      },
+ 
+      {
+         "id":"santa_cruz",
+         "name":"Santa Cruz",
+         "pic":"santa_cruz_s.png",
+         "text":"Santa Cruz s rozlohou 370 621 km² je největším departementem v Bolívii. Hlavním městem je Santa Cruz de la Sierra. K roku 2001 měl depatement 2 029 471 obyvatel. Departement se nachází ve východní části Bolívie. Velkou část jeho rozlohy zaujímají deštné pralesy, které se rozprostírají od And až po hranice s Brazílií."
+      },
+ 
+      {
+         "id":"potosi",
+         "name":"Potosi",
+         "pic":"potosi_s.png",
+         "text":"S rozlohou 370 621 km² největším departementem v Bolívii. Hlavním městem je Santa Cruz de la Sierra. K roku 2001 měl depatement 2 029 471 obyvatel. Departement se nachází ve východní části Bolívie. Velkou část jeho rozlohy zaujímají deštné pralesy, které se rozprostírají od And až po hranice s Brazílií."
+      },
+ 
+      {
+         "id":"tarija",
+         "name":"Tarija",
+         "pic":"tarija_s.png",
+         "text":"Tarija je departement v Bolívii. Nachází se v jihovýchodní Bolívii, hraničící s Argentinou na jihu a Paraguayem na východě. Podle sčítání lidu z roku 2012 v něm žije 482 196 obyvatel. Má rozlohu 37 623 km². Tarija je hlavním městem departementu."
+      },
+ 
+      {
+         "id":"chuquisaca",
+         "name":"Chuquisaca",
+         "pic":"chuquisaca_s.png",
+         "text":"Chuquisaca je departement Bolívie nacházející se ve středu na jih. Hraničí s departementy Cochabamba, Tarija, Potosí a Santa Cruz. Hlavním městem departementu je Sucre, které je také ústavním hlavním městem Bolívie."
+      }
+]

@@ -1,0 +1,65 @@
+[
+    {
+       "id":"cobija",
+       "city":"Cobija",
+       "pic":"cobija.jpg",
+       "text":"Cobija je město v severní Bolívii. Je hlavním městem departementu Pando a žije v něm přibližně 46 tisíc obyvatel. Leží na pravém břehu řeky Acre, která zde tvoří státní hranici s Brazílií. Má nadmořskou výšku 205 m, vládne zde horké vlhké podnebí a město je obklopeno tropickým pralesem."
+    },
+
+    {
+        "id":"tarija2",
+        "city":"Tarija",
+        "pic":"tarija_c.jpg",
+        "text":"Tarija nebo San Bernardo de la Frontera de Tarixa je město v jižní Bolívii. Společnost Tarija, založená v roce 1574, s letištěm (letiště Capitána Oriela Lea Plaza (TJA)) nabízejícím pravidelnou dopravu do hlavních bolivijských měst, má 234 442 obyvatel."
+     },
+
+     {
+        "id":"sucre",
+        "city":"Sucre",
+        "pic":"sucre.jpg",
+        "text":"Sucre, dříve známé jako Charcas, La Plata a Chuquisaca, je oficiální hlavní město Bolívie a hlavní město departementu Chuquisaca. Je sídlem Nejvyššího soudního dvora, Ústavního soudu, Soudní rady a Hlavní republikové prokuratury, vláda však sídlí v La Pazu."
+     },
+
+     {
+        "id":"potosi2",
+        "city":"Potosi",
+        "pic":"potosi_c.jpg",
+        "text":"Potosí, dříve známé také jako Villa Imperial de Potosí, je město na jihu Bolívie, hlavní město stejnojmenného departementu. Rozkládá se na úbočí pověstmi opředené hory Cerro Rico, v níž fungoval největší stříbrný důl na světě. V roce 2011 žilo v Potosí 170 230 obyvatel."
+     },
+
+     {
+        "id":"santa_cruz2",
+        "city":"Santa Cruz",
+        "pic":"santa_cruz_c.jpg",
+        "text":"Největší město Bolívie. Leží v tropické východní části země na řece Piraí. Město bylo založeno v roce 1561, je centrem departmentu Santa Cruz a největším hospodářským střediskem země s velkým podílem na HDP. Od poloviny 20. století, kdy byla vybudována silnice z Cochabamby a železnice do Brazílie, Santa Cruz je jedním z nejrychleji rostoucích jihoamerických měst."
+     },
+
+     {
+        "id":"la_paz2",
+        "city":"La Paz",
+        "pic":"la_paz_c.jpg",
+        "text":"La Paz je administrativní město Bolívie, sídlo bolivijské vlády a hlavní město departmentu La Paz, nicméně oficiálním hlavním městem Bolívie je Sucre. Ve městě žije přibližně 2,87 milionu obyvatel. La Paz je nejvýše položené hlavní město světa."
+     },
+
+     {
+        "id":"oruro2",
+        "city":"Oruro",
+        "pic":"oruro_c.jpg",
+        "text":"Oruro je město v Bolívii se zhruba 260 000 obyvateli, které je správním střediskem stejnojmenného departementu. Leží 230 km severozápadně od metropole země Sucre na úpatí hory Jach'a Ch'ankha v nadmořské výšce 3735 m a má extrémně chladné a suché klima typické pro region Altiplano."
+     },
+
+     {
+        "id":"trinidad",
+        "city":"Trinidad",
+        "pic":"trinidad.jpg",
+        "text":"Trinidad, oficiálně La Santísima Trinidad, je město v Bolívii, hlavní město departementu Beni. Město bylo založeno v roce 1686 otcem Ciprianem Baraceem. V roce 1769 se město kvůli povodním přesunulo na své současné místo."
+     },
+
+     {
+        "id":"cochabamba2",
+        "city":"Cochabamba",
+        "pic":"cochabamba_c.jpg",
+        "text":"Cochabamba je hlavním městem stejnojmenného departementu v Bolívii. Rozprostírá se v údolí Cochabamba v Andách, a s počtem 608 276 obyvatel je třetím největším bolivijským městem. Ve městě se nachází tzv. jihoamerický parlament, výkonný orgán organizace UNASUR. "
+     }
+
+]
